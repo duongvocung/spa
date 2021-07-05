@@ -1,0 +1,135 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box; }
+
+#header {
+  background-color: #2b3840;
+  height: 50px;
+  line-height: 50px; }
+  #header .login-header {
+    text-align: end; }
+  #header .top-header {
+    color: #ffffff;
+    display: flex; }
+    #header .top-header .nav-top-header {
+      display: flex;
+      float: left;
+      font-size: 15px; }
+      #header .top-header .nav-top-header .content1 {
+        margin-right: 30px;
+        padding-right: 1px; }
+    #header .top-header #content2, #header .top-header #content3 {
+      padding-right: 10px; }
+
+@media only screen and (max-width: 768px) {
+  .none {
+    display: none !important; }
+
+  .top-header {
+    display: inline !important; }
+
+  .top-mobi {
+    display: block;
+    float: right;
+    margin-right: 50px; }
+
+  .block {
+    position: relative; }
+
+  .menu-none {
+    position: absolute;
+    top: 0px;
+    bottom: 0px; }
+
+  .block:hover ul {
+    display: block; } }
+@media only screen and (min-width: 768px) {
+  .top-mobi {
+    display: none; } }
+/*body*/
+/*under-header*/
+.under-header .under-header1 .logo img {
+  width: 170px;
+  height: 70px; }
+
+.under-header .under-header1 .menu {
+  margin-left: 200px; }
+
+.menu > ul > li {
+  list-style-type: none;
+  display: inline;
+  margin-left: 25px; }
+
+.menu > ul > li a {
+  color: black; }
+
+#button-menu {
+  background-color: #fc887b;
+  color: white;
+  text-align: center;
+  width: 150px;
+  height: 48px;
+  line-height: 48px;
+  margin-left: 30px;
+  border: none; }
+
+/*slideshow*/
+#body .slide-show {
+  padding: 0px;
+  position: relative; }
+  #body .slide-show img {
+    width: 100%;
+    height: 100%;
+    margin-top: 20px; }
+  #body .slide-show .content-slide-show {
+    padding-top: 190px;
+    color: white;
+    text-align: left;
+    text-transform: uppercase;
+    position: absolute;
+    top: -2%;
+    left: 12%; }
+    #body .slide-show .content-slide-show input, #body .slide-show .content-slide-show select, #body .slide-show .content-slide-show button {
+      height: 50px;
+      width: 230px;
+      border: none;
+      margin-top: 50px;
+      outline: none; }
+    #body .slide-show .content-slide-show input {
+      text-align: center; }
+    #body .slide-show .content-slide-show select {
+      margin-left: -4px; }
+    #body .slide-show .content-slide-show button {
+      margin-left: -5px;
+      background-color: #2b3840;
+      color: white;
+      width: 210px; }
+
+.category-top {
+  border: solid 1px;
+  border-top: none;
+  border-color: #e5e5e5;
+  width: 100%; }
+  .category-top .category-bot {
+    display: flex; }
+    .category-top .category-bot .listcategory {
+      padding: 5% 0px;
+      border: solid 1px;
+      border-color: #e5e5e5;
+      text-align: center;
+      height: 180px;
+      width: 180px; }
+      .category-top .category-bot .listcategory:hover {
+        background-color: #fc887b;
+        color: white; }
+      .category-top .category-bot .listcategory span {
+        font-size: 50px; }
+      .category-top .category-bot .listcategory .content3 {
+        font-size: 16px;
+        text-align: center; }
+
+.tittle {
+  text-align: center;
+  margin-top: 70px;
+  line-height: 25px; }
