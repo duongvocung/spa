@@ -1,0 +1,34 @@
+/*slideshow*/
+.slide-show {
+  padding: 10%;
+  background-image: url("http://demo12.cmsmart.net/retreatclub_tf/home3/wp-content/uploads/2020/07/banner-home-3-.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%; }
+  .slide-show img {
+    width: 100%;
+    margin-top: 20px; }
+  .slide-show .content-slide-show {
+    width: 100%;
+    margin-top: 20px;
+    color: white;
+    text-align: left;
+    text-transform: uppercase;
+    top: 0;
+    left: 0; }
+    .slide-show .content-slide-show input, .slide-show .content-slide-show select, .slide-show .content-slide-show button {
+      height: 50px;
+      width: 230px;
+      border: none;
+      margin-top: 50px;
+      outline: none; }
+    .slide-show .content-slide-show input {
+      text-align: center; }
+    .slide-show .content-slide-show select {
+      margin-left: -4px; }
+    .slide-show .content-slide-show button {
+      margin-left: -5px;
+      background-color: #2b3840;
+      color: white;
+      width: 210px; }
+
+/*# sourceMappingURL=slide.css.map */

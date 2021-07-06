@@ -1,23 +1,29 @@
 /*slideshow*/
+ .slide-show {
+   padding: 10%;;
 
-#body .slide-show {
-  padding: 0px;
-  position: relative;
+   background-image: url("http://demo12.cmsmart.net/retreatclub_tf/home3/wp-content/uploads/2020/07/banner-home-3-.jpg") ;
+   background-repeat: no-repeat;
+   background-size: 100%;
+
 
   img {
     width: 100%;
-    height: 100%;
+
     margin-top: 20px;
   }
 
   .content-slide-show {
-    padding-top: 190px;
+    width: 100%;
+
+    margin-top: 20px;
+
     color: white;
     text-align: left;
     text-transform: uppercase;
-    position: absolute;
-    top: -2%;
-    left: 12%;
+
+    top: 0;
+    left: 0;
 
     input, select, button {
       height: 50px;

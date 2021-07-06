@@ -28,40 +28,57 @@
 <body>
 
 <!--    header-->
-<div id="header">
+
     <!--        top-header-->
+<section class="main">
     <div class="top-header container">
-        <div class="nav-top-header none col-md-6">
-            <p class="content1">Have any question?</p>
+        <div class="nav-top-header col-md-6">
+            <p class="content1 event">Have any question?</p>
             <span><i id="content2" class="fas fa-envelope"></i></span>
-            <p class="content1">support@example.com</p>
+            <p class="content1 event">support@example.com</p>
             <p class="content1"><span><i id="content3" class="fas fa-phone-square-alt"></i></span>+1814251152</p>
         </div>
         <div class="login-header none col-md-6">
             <p><span class="content1"><i class="fas fa-sign-in-alt"></i></span>Login / Register</p>
         </div>
-        <div class="top-mobi">
-            <ul>
-                <li><i class="fas block fa-bars">
-                    <ul class="menu-none">
-                        <li>aaa</li>
-                        <li>a</li>
+</section>
 
-                    </ul>
-                </i>
-                </li>
-            </ul>
-
-        </div>
+        <!--            //nut inut nav-->
 
     </div>
 
     <!--        under-header-->
+<!--    nav-mobie-menu-->
+    <input type="checkbox" hidden class="nav__input" id="nav-mobie-input">
+
+    <nav class="nav__mobile">
+
+        <!--            //nut x-->
+        <label for="nav-mobie-input" class="nav__mobie-close"><i class="fas fa-times"></i></label>
+
+        <ul class="nav__mobile-list">
+            <li><a href="" class="nav__mobile-link">Home</a></li>
+            <li><a href="" class="nav__mobile-link">Listing</a></li>
+            <li><a href="" class="nav__mobile-link">News</a></li>
+            <li><a href="" class="nav__mobile-link">About</a></li>
+            <li><a href="" class="nav__mobile-link">Shop</a></li>
+            <li><a href="" class="nav__mobile-link">Page</a></li>
+            <li><a href="" class="nav__mobile-link">Contact</a></li>
+            <button>+Add Listing</button>
+        </ul>
+    </nav>
+
     <div class="under-header container">
+        <!--        nav-mobie-->
+        <label for="nav-mobie-input" class="top-mobi">
+            <i class="fas block fa-bars"></i>
+        </label>
+
+<!--        logo and menu-->
         <div class="under-header1 row">
-            <div class="logo"><img src="image/Logo.png" alt=""></div>
-                 <div class="menu">
-                      <ul>
+            <div class="logo cl-md-2"><img src="image/Logo.png" alt=""></div>
+            <div class="menu cl-md-10">
+                <ul>
                     <li><a href="">Home</a></li>
                     <li><a href="">Listing</a></li>
                     <li><a href="">News</a></li>
@@ -72,90 +89,91 @@
                     <li><a href=""><i class="fas fa-search"></i></a></li>
                     <button id="button-menu">Add Listing</button>
                 </ul>
-                 </div>
             </div>
         </div>
+    </div>
 
-</div>
-    <!--        body-->
 
-    <div id="body" style="margin-top: 150px;">
-        <!--            slide-->
-        <section>
-            <div class="slide-show container-fluid">
-                <img src="image/slideshow-.jpg" alt="">
-                <div class="content-slide-show container">
-                    <h4>Our Discover</h4>
-                    <h1>Instanly Book Salons <br> And Spas Nearby</h1>
-                    <input type="text" placeholder="Type Your Text">
-                    <select name="cars" id="cars">
-                        <option>All categories</option>
-                        <option value="saab">Saab</option>
-                        <option value="opel">Opel</option>
-                        <option value="audi">Audi</option>
-                    </select>
-                    <button>Search</button>
-                </div>
+<!--        body-->
+
+<div id="body" style="margin-top: 18px;">
+    <!--            slide-->
+    <section>
+        <div class="slide-show container-fluid">
+
+<!--            <img src="image/slideshow-.jpg" alt=""> -->
+            <div class="content-slide-show container">
+                <h4>Our Discover</h4>
+                <h1>Instanly Book Salons <br> And Spas Nearby</h1>
+                <input type="text" placeholder="Type Your Text">
+                <select name="cars" id="cars">
+                    <option>All categories</option>
+                    <option value="saab">Saab</option>
+                    <option value="opel">Opel</option>
+                    <option value="audi">Audi</option>
+                </select>
+                <button>Search</button>
             </div>
-        </section>
-        <!--            category-->
-        <section>
-            <div class="category-top container-fluid">
+        </div>
+    </section>
+    <!--            category-->
+    <section>
+        <div class="category-top container-fluid">
 
-                <div class="category-bot container">
-                    <div class="listcategory col-md-2"><span id="kkk" class="icon-beautysalon">
+            <div class="category-bot container">
+                <div class="listcategory col-md-2"><span id="kkk" class="icon-beautysalon">
                             <div class="content3">Beaty Salon
 
                         </div></span></span></div>
 
-                    <div class="listcategory col-md-2"><span class="icon-haircut"> <div class="content3">Hair Salon
+                <div class="listcategory col-md-2"><span class="icon-haircut"> <div class="content3">Hair Salon
 
                         </div></span></div>
 
-                    <div class="listcategory col-md-2"><span class="icon-massage"> <div class="content3">Spa
+                <div class="listcategory col-md-2"><span class="icon-massage"> <div class="content3">Spa
 
                         </div></span></div>
 
-                    <div class="listcategory col-md-2"><span class="icon-nail-polish"> <div class="content3"> Massage
+                <div class="listcategory col-md-2"><span class="icon-nail-polish"> <div class="content3"> Massage
 
                         </div></span></div>
-                    <div class="listcategory col-md-2"><span class="icon-spa"> <div class="content3">Nail Salon
+                <div class="listcategory col-md-2"><span class="icon-spa"> <div class="content3">Nail Salon
 
                         </div></span></div>
-                    <div class="listcategory col-md-2"><span class="icon-therapy"> <div class="content3">Therapy
+                <div class="listcategory col-md-2"><span class="icon-therapy"> <div class="content3">Therapy
 
                         </div></span></div>
-                </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <!--            tittle-->
+    <!--            tittle-->
 
-        <section>
-            <div class="tittle container">
-                <h2>Our Featured Parlour Listings</h2>
-                <img src="image/Tittle--Line-.jpg" alt="">
-                <div class="content-titlle">
-                    Inspires people to look and feedl their best - which is why we're
-                    trusted by millions <br> of customers and thousands of businesses
-                    worldwide
-                </div>
+    <section>
+        <div class="tittle container">
+            <h2>Our Featured Parlour Listings</h2>
+            <img src="image/Tittle--Line-.jpg" alt="">
+            <div class="content-titlle">
+                Inspires people to look and feedl their best - which is why we're
+                trusted by millions <br> of customers and thousands of businesses
+                worldwide
             </div>
-        </section>
+        </div>
+    </section>
 
-    </div>
+</div>
 
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-            crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-            crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-            crossorigin="anonymous"></script>
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
 </body>
 </html>

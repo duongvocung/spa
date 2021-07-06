@@ -1,0 +1,27 @@
+/*under-header*/
+.under-header .under-header1 .logo img {
+  width: 170px;
+  height: 70px; }
+
+.under-header .under-header1 .menu {
+  margin-left: 200px; }
+
+.menu > ul > li {
+  list-style-type: none;
+  display: inline;
+  margin-left: 25px; }
+
+.menu > ul > li a {
+  color: black; }
+
+#button-menu {
+  background-color: #fc887b;
+  color: white;
+  text-align: center;
+  width: 150px;
+  height: 48px;
+  line-height: 48px;
+  margin-left: 30px;
+  border: none; }
+
+/*# sourceMappingURL=style-under-header.css.map */
