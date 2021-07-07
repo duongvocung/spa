@@ -3,6 +3,7 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
 }
 
 
@@ -13,6 +14,7 @@
   line-height: 50px;
   .login-header {
     text-align: end;
+    margin-left: 26px;
   }
 
   .top-header {
@@ -26,8 +28,8 @@
       font-size: 15px;
 
       .content1 {
-        margin-right: 30px;
-        padding-right: 1px;
+        margin-right: -14px;
+        padding-right: 8px;
       }
     }
 

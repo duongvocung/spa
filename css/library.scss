@@ -1,0 +1,160 @@
+
+.wapper__slider {
+  .row {
+    .wapper__silder-block1 {
+      .wapper__silder-img {
+        position: relative;
+
+        .lable {
+          position: absolute;
+          padding: 0;
+          top: 30px;
+          right: 30px;
+          background-color: #d62963;
+          border-radius: 17px;
+          font-size: 75%;
+          font-weight: 700;
+
+          color: #fff;
+          display: inline;
+          white-space: nowrap;
+          vertical-align: baseline;
+
+          .popular {
+            text-align: center;
+
+            border-radius: 12px;
+            font-size: 12px;
+            font-weight: 500;
+            text-transform: uppercase;
+            display: flex;
+            justify-content: center;
+            width: 81px;
+            height: 5px;
+
+          }
+
+
+        }
+        .price {
+          background-color: #fc887b;
+          position: absolute;
+          left: 30px;
+          border-radius: 13px;
+          color: white;
+          bottom: 30px;
+          width: 65px;
+          text-align: center;
+
+          p{
+
+            font-size: 13px;
+            font-weight: 700;
+            line-height: 28px;
+            display: flex;
+            padding-right: 10px;
+            height: 28px;
+            align-items: center;
+            margin-bottom: 0;
+            margin-left: 12px;
+          }
+        }
+        .rate {
+          float: left;
+          height: 46px;
+          padding: 0 10px;
+          position: absolute;
+          top: 184px;
+          right: 14px;
+        }
+        }
+        .rate:not(:checked) > input {
+          position:absolute;
+          top:-9999px;
+        }
+        .rate:not(:checked) > label {
+          float:right;
+          width:1em;
+          overflow:hidden;
+          white-space:nowrap;
+          cursor:pointer;
+          font-size:30px;
+          color:#ccc;
+        }
+        .rate:not(:checked) > label:before {
+          content: '★ ';
+        }
+        .rate > input:checked ~ label {
+          color: #ffc700;
+        }
+        .rate:not(:checked) > label:hover,
+        .rate:not(:checked) > label:hover ~ label {
+          color: #deb217;
+        }
+        .rate > input:checked + label:hover,
+        .rate > input:checked + label:hover ~ label,
+        .rate > input:checked ~ label:hover,
+        .rate > input:checked ~ label:hover ~ label,
+        .rate > label:hover ~ input:checked ~ label {
+          color: #c59b08;
+        }
+      }
+
+      .wapper__silder-footer {
+        border: 1px solid #e5e5e5;
+        border-top: none;
+        padding: 15px 30px;
+
+
+        .wapper__silder-content {
+          font-family: Lato;
+          font-weight: 400;
+          font-size: 16px;
+
+          .wapper__siler-content-footer {
+            display: flex;
+            justify-content: space-between;
+
+            .icon__content--footer {
+              margin-left: 12px;
+            }
+
+            button {
+              padding: 3px 20px;
+              border-radius: 16px;
+              font-weight: 700;
+              border: 1px solid #e5e5e5;
+            }
+          }
+        }
+      }
+
+      .wapper__silder-heart {
+        display: flex;
+        border: 1px solid #e5e5e5;
+        border-top: none;
+        justify-content: space-between;
+        padding: 3px 29px;
+        line-height: 43px;
+        height: 50px;
+      }
+    }
+  }
+
+
+.element-button {
+  text-align: center;
+
+  button {
+    display: inline-block;
+    background-color: #fc887b;
+    font-size: 16px;
+    line-height: 30px;
+    padding: 0 49px;
+    height: 50px;
+    text-align: center;
+    color: #fff;
+    border: none;
+    margin-top: 50px;
+  }
+}

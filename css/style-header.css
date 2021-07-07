@@ -1,14 +1,16 @@
 * {
   margin: 0px;
   padding: 0px;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif; }
 
 .main {
   background-color: #2b3840;
   height: 50px;
   line-height: 50px; }
   .main .login-header {
-    text-align: end; }
+    text-align: end;
+    margin-left: 26px; }
   .main .top-header {
     color: #ffffff;
     display: flex; }
@@ -17,8 +19,8 @@
       float: left;
       font-size: 15px; }
       .main .top-header .nav-top-header .content1 {
-        margin-right: 30px;
-        padding-right: 1px; }
+        margin-right: -14px;
+        padding-right: 8px; }
     .main .top-header #content2, .main .top-header #content3 {
       padding-right: 10px; }
 
