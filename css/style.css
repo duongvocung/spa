@@ -2,28 +2,42 @@
 * {
   margin: 0px;
   padding: 0px;
-  box-sizing: border-box;
-  font-family: 'Poppins', sans-serif; }
+  box-sizing: border-box; }
 
 .main {
   background-color: #2b3840;
   height: 50px;
-  line-height: 50px; }
+  line-height: 50px;
+  font-family: 'Lato', sans-serif;
+  font-size: 14px; }
   .main .login-header {
     text-align: end;
     margin-left: 26px; }
   .main .top-header {
     color: #ffffff;
-    display: flex; }
+    display: flex;
+    padding: 0px; }
     .main .top-header .nav-top-header {
       display: flex;
       float: left;
-      font-size: 15px; }
+      font-weight: 400; }
+      .main .top-header .nav-top-header #content2 {
+        margin-left: 43px;
+        margin-right: 11px;
+        color: #fc887b; }
       .main .top-header .nav-top-header .content1 {
-        margin-right: -14px;
-        padding-right: 8px; }
-    .main .top-header #content2, .main .top-header #content3 {
-      padding-right: 10px; }
+        margin-left: 5px; }
+      .main .top-header .nav-top-header .content3 {
+        margin-left: 33px; }
+        .main .top-header .nav-top-header .content3 span #content3 {
+          padding-right: 9px;
+          color: #fc887b; }
+    .main .top-header .login-header .login {
+      margin-right: 9px; }
+      .main .top-header .login-header .login .content {
+        margin-right: 13px; }
+      .main .top-header .login-header .login .name-login {
+        margin-right: 19px; }
 
 .block {
   display: none !important; }
@@ -127,40 +141,56 @@
 /*slideshow*/
 .slide-show {
   padding: 10%;
+  margin-top: 33px;
   background-image: url("http://demo12.cmsmart.net/retreatclub_tf/home3/wp-content/uploads/2020/07/banner-home-3-.jpg");
   background-repeat: no-repeat;
-  background-size: 100%; }
+  background-size: 100%;
+  background-position: center center;
+  background-size: cover; }
   .slide-show img {
     width: 100%;
     margin-top: 20px; }
   .slide-show .content-slide-show {
     width: 100%;
-    margin-top: 20px;
+    margin-top: 46px;
     color: white;
     text-align: left;
     text-transform: uppercase;
     top: 0;
     left: 0; }
-    .slide-show .content-slide-show input, .slide-show .content-slide-show select, .slide-show .content-slide-show button {
-      height: 50px;
-      width: 230px;
-      border: none;
-      margin-top: 50px;
-      outline: none; }
-    .slide-show .content-slide-show input {
-      text-align: center; }
-    .slide-show .content-slide-show select {
-      margin-left: -4px; }
-    .slide-show .content-slide-show button {
-      margin-left: -5px;
-      background-color: #2b3840;
-      color: white;
-      width: 210px; }
+    .slide-show .content-slide-show h3 {
+      font-size: 30px;
+      font-weight: 700; }
+    .slide-show .content-slide-show h2 {
+      font-family: "Playfair Display", Sans-serif;
+      font-size: 60px;
+      font-weight: 700;
+      line-height: 73px; }
+    .slide-show .content-slide-show .content__slideshow-block-sreach {
+      max-width: 710px;
+      padding: 0;
+      border-bottom: 0; }
+      .slide-show .content-slide-show .content__slideshow-block-sreach input, .slide-show .content-slide-show .content__slideshow-block-sreach select, .slide-show .content-slide-show .content__slideshow-block-sreach button {
+        height: 50px;
+        width: 250px;
+        border: none;
+        margin-top: 24px;
+        outline: none; }
+      .slide-show .content-slide-show .content__slideshow-block-sreach input {
+        text-align: center; }
+      .slide-show .content-slide-show .content__slideshow-block-sreach select {
+        margin-left: -4px; }
+      .slide-show .content-slide-show .content__slideshow-block-sreach button {
+        margin-left: -5px;
+        background-color: #2b3840;
+        color: white;
+        width: 210px; }
 
 .category-top {
   border: solid 1px;
   border-top: none;
   border-color: #e5e5e5;
+  margin-top: 53px;
   width: 100%; }
   .category-top .category-bot {
     display: flex; }
