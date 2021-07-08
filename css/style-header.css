@@ -1,13 +1,14 @@
 * {
   margin: 0px;
   padding: 0px;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif; }
 
 .main {
   background-color: #2b3840;
   height: 50px;
   line-height: 50px;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Lato', sans-serif !important;
   font-size: 14px; }
   .main .login-header {
     text-align: end;
@@ -21,7 +22,7 @@
       float: left;
       font-weight: 400; }
       .main .top-header .nav-top-header #content2 {
-        margin-left: 43px;
+        margin-left: 28px;
         margin-right: 11px;
         color: #fc887b; }
       .main .top-header .nav-top-header .content1 {
@@ -82,9 +83,6 @@
   .block {
     font-size: 25px;
     display: none !important; }
-
-  .event, #content2 {
-    display: none; }
 
   .nav__mobile-list button {
     background-color: #d62963;

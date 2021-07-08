@@ -1,6 +1,9 @@
 .tittle {
   text-align: center;
-  margin-top: 70px;
-  line-height: 25px; }
+  margin-top: 84px;
+  font-weight: 450;
+  margin-left: 396px; }
+  .tittle img {
+    margin-top: -7px; }
 
 /*# sourceMappingURL=tittle.css.map */

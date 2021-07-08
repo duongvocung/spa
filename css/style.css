@@ -2,13 +2,14 @@
 * {
   margin: 0px;
   padding: 0px;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif; }
 
 .main {
   background-color: #2b3840;
   height: 50px;
   line-height: 50px;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Lato', sans-serif !important;
   font-size: 14px; }
   .main .login-header {
     text-align: end;
@@ -22,7 +23,7 @@
       float: left;
       font-weight: 400; }
       .main .top-header .nav-top-header #content2 {
-        margin-left: 43px;
+        margin-left: 28px;
         margin-right: 11px;
         color: #fc887b; }
       .main .top-header .nav-top-header .content1 {
@@ -84,9 +85,6 @@
     font-size: 25px;
     display: none !important; }
 
-  .event, #content2 {
-    display: none; }
-
   .nav__mobile-list button {
     background-color: #d62963;
     border-radius: 30px;
@@ -146,7 +144,8 @@
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center center;
-  background-size: cover; }
+  background-size: cover;
+  height: 750px; }
   .slide-show img {
     width: 100%;
     margin-top: 20px; }
@@ -190,7 +189,6 @@
   border: solid 1px;
   border-top: none;
   border-color: #e5e5e5;
-  margin-top: 53px;
   width: 100%; }
   .category-top .category-bot {
     display: flex; }
@@ -212,113 +210,123 @@
 
 .tittle {
   text-align: center;
-  margin-top: 70px;
-  line-height: 25px; }
+  margin-top: 84px;
+  font-weight: 450;
+  margin-left: 396px; }
+  .tittle img {
+    margin-top: -7px; }
 
-.wapper__slider .row .wapper__silder-block1 .wapper__silder-img {
-  position: relative; }
-  .wapper__slider .row .wapper__silder-block1 .wapper__silder-img .lable {
-    position: absolute;
-    padding: 0;
-    top: 30px;
-    right: 30px;
-    background-color: #d62963;
-    border-radius: 17px;
-    font-size: 75%;
-    font-weight: 700;
-    color: #fff;
-    display: inline;
-    white-space: nowrap;
-    vertical-align: baseline; }
-    .wapper__slider .row .wapper__silder-block1 .wapper__silder-img .lable .popular {
-      text-align: center;
-      border-radius: 12px;
-      font-size: 12px;
-      font-weight: 500;
-      text-transform: uppercase;
-      display: flex;
-      justify-content: center;
-      width: 81px;
-      height: 5px; }
-  .wapper__slider .row .wapper__silder-block1 .wapper__silder-img .price {
-    background-color: #fc887b;
-    position: absolute;
-    left: 30px;
-    border-radius: 13px;
-    color: white;
-    bottom: 30px;
-    width: 65px;
-    text-align: center; }
-    .wapper__slider .row .wapper__silder-block1 .wapper__silder-img .price p {
-      font-size: 13px;
+.wapper__slider {
+  margin-top: 55px;
+  margin-left: 389px; }
+  .wapper__slider .row .wapper__silder-block1 .wapper__silder-img {
+    position: relative; }
+    .wapper__slider .row .wapper__silder-block1 .wapper__silder-img .lable {
+      position: absolute;
+      padding: 0;
+      top: 22px;
+      right: 19px;
+      background-color: #d62963;
+      border-radius: 17px;
+      font-size: 75%;
       font-weight: 700;
-      line-height: 28px;
-      display: flex;
-      padding-right: 10px;
-      height: 28px;
-      align-items: center;
-      margin-bottom: 0;
-      margin-left: 12px; }
-  .wapper__slider .row .wapper__silder-block1 .wapper__silder-img .rate {
-    float: left;
-    height: 46px;
-    padding: 0 10px;
-    position: absolute;
-    top: 184px;
-    right: 14px; }
-.wapper__slider .row .wapper__silder-block1 .rate:not(:checked) > input {
-  position: absolute;
-  top: -9999px; }
-.wapper__slider .row .wapper__silder-block1 .rate:not(:checked) > label {
-  float: right;
-  width: 1em;
-  overflow: hidden;
-  white-space: nowrap;
-  cursor: pointer;
-  font-size: 30px;
-  color: #ccc; }
-.wapper__slider .row .wapper__silder-block1 .rate:not(:checked) > label:before {
-  content: '★ '; }
-.wapper__slider .row .wapper__silder-block1 .rate > input:checked ~ label {
-  color: #ffc700; }
-.wapper__slider .row .wapper__silder-block1 .rate:not(:checked) > label:hover,
-.wapper__slider .row .wapper__silder-block1 .rate:not(:checked) > label:hover ~ label {
-  color: #deb217; }
-.wapper__slider .row .wapper__silder-block1 .rate > input:checked + label:hover,
-.wapper__slider .row .wapper__silder-block1 .rate > input:checked + label:hover ~ label,
-.wapper__slider .row .wapper__silder-block1 .rate > input:checked ~ label:hover,
-.wapper__slider .row .wapper__silder-block1 .rate > input:checked ~ label:hover ~ label,
-.wapper__slider .row .wapper__silder-block1 .rate > label:hover ~ input:checked ~ label {
-  color: #c59b08; }
-.wapper__slider .row .wapper__silder-footer {
-  border: 1px solid #e5e5e5;
-  border-top: none;
-  padding: 15px 30px; }
-  .wapper__slider .row .wapper__silder-footer .wapper__silder-content {
-    font-family: Lato;
-    font-weight: 400;
-    font-size: 16px; }
-    .wapper__slider .row .wapper__silder-footer .wapper__silder-content .wapper__siler-content-footer {
-      display: flex;
-      justify-content: space-between; }
-      .wapper__slider .row .wapper__silder-footer .wapper__silder-content .wapper__siler-content-footer .icon__content--footer {
-        margin-left: 12px; }
-      .wapper__slider .row .wapper__silder-footer .wapper__silder-content .wapper__siler-content-footer button {
-        padding: 3px 20px;
-        border-radius: 16px;
+      color: #fff;
+      display: inline;
+      white-space: nowrap;
+      vertical-align: baseline; }
+      .wapper__slider .row .wapper__silder-block1 .wapper__silder-img .lable .popular {
+        text-align: center;
+        border-radius: 12px;
+        font-size: 12px;
+        font-weight: 500;
+        text-transform: uppercase;
+        display: flex;
+        justify-content: center;
+        width: 81px;
+        height: 5px; }
+    .wapper__slider .row .wapper__silder-block1 .wapper__silder-img .price {
+      background-color: #fc887b;
+      position: absolute;
+      left: 22px;
+      border-radius: 13px;
+      color: white;
+      bottom: 19px;
+      width: 65px;
+      text-align: center; }
+      .wapper__slider .row .wapper__silder-block1 .wapper__silder-img .price p {
+        font-size: 13px;
         font-weight: 700;
-        border: 1px solid #e5e5e5; }
-.wapper__slider .row .wapper__silder-heart {
-  display: flex;
-  border: 1px solid #e5e5e5;
-  border-top: none;
-  justify-content: space-between;
-  padding: 3px 29px;
-  line-height: 43px;
-  height: 50px; }
+        line-height: 28px;
+        display: flex;
+        padding-right: 10px;
+        height: 28px;
+        align-items: center;
+        margin-bottom: 0;
+        margin-left: 12px; }
+    .wapper__slider .row .wapper__silder-block1 .wapper__silder-img .rate {
+      float: left;
+      height: 46px;
+      position: absolute;
+      top: 198px;
+      right: 11px; }
+  .wapper__slider .row .wapper__silder-block1 .rate:not(:checked) > input {
+    position: absolute;
+    top: -9999px; }
+  .wapper__slider .row .wapper__silder-block1 .rate:not(:checked) > label {
+    float: right;
+    width: 1em;
+    overflow: hidden;
+    white-space: nowrap;
+    cursor: pointer;
+    font-size: 30px;
+    color: #ccc; }
+  .wapper__slider .row .wapper__silder-block1 .rate:not(:checked) > label:before {
+    content: '★ '; }
+  .wapper__slider .row .wapper__silder-block1 .rate > input:checked ~ label {
+    color: #ffc700; }
+  .wapper__slider .row .wapper__silder-block1 .rate:not(:checked) > label:hover,
+  .wapper__slider .row .wapper__silder-block1 .rate:not(:checked) > label:hover ~ label {
+    color: #deb217; }
+  .wapper__slider .row .wapper__silder-block1 .rate > input:checked + label:hover,
+  .wapper__slider .row .wapper__silder-block1 .rate > input:checked + label:hover ~ label,
+  .wapper__slider .row .wapper__silder-block1 .rate > input:checked ~ label:hover,
+  .wapper__slider .row .wapper__silder-block1 .rate > input:checked ~ label:hover ~ label,
+  .wapper__slider .row .wapper__silder-block1 .rate > label:hover ~ input:checked ~ label {
+    color: #c59b08; }
+  .wapper__slider .row .wapper__silder-footer {
+    border: 1px solid #e5e5e5;
+    border-top: none;
+    padding: 15px 30px; }
+    .wapper__slider .row .wapper__silder-footer .wapper__silder-content {
+      font-family: Lato;
+      font-weight: 400;
+      font-size: 16px; }
+      .wapper__slider .row .wapper__silder-footer .wapper__silder-content .wapper__siler-content-footer {
+        display: flex;
+        justify-content: space-between; }
+        .wapper__slider .row .wapper__silder-footer .wapper__silder-content .wapper__siler-content-footer .icon__content--footer {
+          margin-left: 12px; }
+        .wapper__slider .row .wapper__silder-footer .wapper__silder-content .wapper__siler-content-footer button {
+          padding: 3px 20px;
+          border-radius: 16px;
+          font-weight: 700;
+          border: 1px solid #e5e5e5; }
+  .wapper__slider .row .wapper__silder-heart {
+    display: flex;
+    border: 1px solid #e5e5e5;
+    border-top: none;
+    justify-content: space-between;
+    padding: 3px 29px;
+    line-height: 43px;
+    height: 50px;
+    color: #fc887b; }
+    .wapper__slider .row .wapper__silder-heart span {
+      color: #fc887b; }
 
 .element-button {
-  text-align: center; }
+  text-align: center;
+  margin-top: 17px;
+  margin-left: 388px; }
   .element-button button {
     display: inline-block;
     background-color: #fc887b;
