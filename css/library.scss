@@ -145,6 +145,10 @@
         color: #fc887b;
         span{
           color: #fc887b;
+          width: 30px;
+          height: 30px;
+          border: 1px solid;
+          border-radius: 16px;
         }
       }
     }
@@ -167,5 +171,16 @@
     color: #fff;
     border: none;
     margin-top: 50px;
+  }
+}
+
+
+@media (max-width:1440px ) {
+  .wapper__slider {
+    margin-left: 143px;
+
+  }
+  .element-button{
+    margin-left: 164px;
   }
 }

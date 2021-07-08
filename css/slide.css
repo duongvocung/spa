@@ -36,11 +36,16 @@
         width: 250px;
         border: none;
         margin-top: 24px;
-        outline: none; }
+        outline: none;
+        font-size: 14px;
+        font: inherit; }
       .slide-show .content-slide-show .content__slideshow-block-sreach input {
-        text-align: center; }
+        padding: 0 25px;
+        color: #797979;
+        border-right: solid 4px; }
       .slide-show .content-slide-show .content__slideshow-block-sreach select {
-        margin-left: -4px; }
+        margin-left: -7px;
+        padding: 0 25px; }
       .slide-show .content-slide-show .content__slideshow-block-sreach button {
         margin-left: -5px;
         background-color: #2b3840;
