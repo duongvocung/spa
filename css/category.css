@@ -2,8 +2,10 @@
   border: solid 1px;
   border-top: none;
   border-color: #e5e5e5;
-  margin-top: 53px;
   width: 100%; }
+  .category-top > :first-child {
+    border-left: solid 1px;
+    border-color: #e5e5e5; }
   .category-top .category-bot {
     display: flex; }
     .category-top .category-bot .listcategory {
@@ -12,7 +14,9 @@
       border-color: #e5e5e5;
       text-align: center;
       height: 180px;
-      width: 180px; }
+      width: 180px;
+      border-left: none;
+      border-bottom: none; }
       .category-top .category-bot .listcategory:hover {
         background-color: #fc887b;
         color: white; }

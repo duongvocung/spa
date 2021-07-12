@@ -1,13 +1,20 @@
 * {
   margin: 0px;
   padding: 0px;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif; }
+
+body{
+  font-family: Lato;
+  font-weight: 400;
+  font-size: 16px;
+}
 
 .main {
   background-color: #2b3840;
   height: 50px;
   line-height: 50px;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Lato', sans-serif !important;
   font-size: 14px; }
   .main .login-header {
     text-align: end;
@@ -21,7 +28,7 @@
       float: left;
       font-weight: 400; }
       .main .top-header .nav-top-header #content2 {
-        margin-left: 43px;
+        margin-left: 28px;
         margin-right: 11px;
         color: #fc887b; }
       .main .top-header .nav-top-header .content1 {
@@ -38,7 +45,7 @@
       .main .top-header .login-header .login .name-login {
         margin-right: 19px; }
 
-.block {
+.block-threeicon {
   display: none !important; }
 
 .nav__mobie-close {
@@ -77,33 +84,8 @@
 
 @media (max-width: 1024px) {
   .block {
-    display: block !important; }
-
-  .block {
+    display: block !important;
     font-size: 25px;
-    display: none !important; }
-
-  .event, #content2 {
-    display: none; }
-
-  .nav__mobile-list button {
-    background-color: #d62963;
-    border-radius: 30px;
-    border: none;
-    display: block;
-    text-align: center;
-    color: #fff;
-    height: 50px;
-    line-height: 30px;
-    min-width: 90%;
-    margin-left: 28px; }
-
-  .menu {
-    margin-left: 35px !important;
-    margin-top: 18px !important; } }
-@media (max-width: 768px) {
-  .block {
-    float: right;
-    margin-left: 651px; } }
+    display: none !important; } }
 
 /*# sourceMappingURL=style-header.css.map */

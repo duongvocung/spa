@@ -7,6 +7,8 @@
         width: 170px;
         height: 70px;
         margin: -14px;
+        margin-left: 13px;
+        margin-top: -13px;
       }
 
     }
@@ -16,20 +18,21 @@
 
       ul {
         position: absolute;
-        margin-left: 130px;
-        left: 22px;
+
+        left: 180px;
+        font-weight: 400;
+        font-size: 16px;
 
         li {
           list-style-type: none;
           display: inline;
-          margin-left: 25px;
+          margin-left: 31px;
 
           a {
             color: black;
             font-size: 16px;
             line-height: 32px;
             font-weight: normal;
-            text-transform: uppercase;
             text-decoration: none;
           }
         }
@@ -51,9 +54,31 @@
 
 }
 
+@media (max-width: 1024px) {
+
+  .under-header {
+    .under-header1 {
+
+      .menu {
+
+        ul {
+          left: -61px;
+          width: 100%;
+          .icon__search-menu{
+            display: none;
+          }
+          li {
+
+            margin-left: 25px;
 
 
+          }
 
+        }
+      }
+    }
+  }
+}
 
 
 

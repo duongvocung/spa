@@ -1,5 +1,9 @@
 
 .wapper__slider {
+
+  margin-top: 55px;
+  margin-left: 389px;
+
   .row {
     .wapper__silder-block1 {
       .wapper__silder-img {
@@ -8,8 +12,8 @@
         .lable {
           position: absolute;
           padding: 0;
-          top: 30px;
-          right: 30px;
+          top: 22px;
+          right: 19px;
           background-color: #d62963;
           border-radius: 17px;
           font-size: 75%;
@@ -39,10 +43,10 @@
         .price {
           background-color: #fc887b;
           position: absolute;
-          left: 30px;
+          left: 22px;
           border-radius: 13px;
           color: white;
-          bottom: 30px;
+          bottom: 19px;
           width: 65px;
           text-align: center;
 
@@ -62,10 +66,10 @@
         .rate {
           float: left;
           height: 46px;
-          padding: 0 10px;
+          //padding: 0 10px;
           position: absolute;
-          top: 184px;
-          right: 14px;
+          top: 198px;
+          right: 11px;
         }
         }
         .rate:not(:checked) > input {
@@ -110,13 +114,23 @@
           font-family: Lato;
           font-weight: 400;
           font-size: 16px;
-
+          .h3{
+            font-size: 24px;
+            font-weight: 700;
+            font-family: Playfair Display;
+            color: #2b3840;
+          }
+          p{
+            font-weight: 400;
+            font-size: 16px;
+          }
           .wapper__siler-content-footer {
             display: flex;
             justify-content: space-between;
 
             .icon__content--footer {
               margin-left: 12px;
+              //color: #fc887b;
             }
 
             button {
@@ -137,6 +151,14 @@
         padding: 3px 29px;
         line-height: 43px;
         height: 50px;
+        color: #fc887b;
+        span{
+          color: #fc887b;
+          width: 30px;
+          height: 30px;
+          border: 1px solid;
+          border-radius: 16px;
+        }
       }
     }
   }
@@ -144,6 +166,8 @@
 
 .element-button {
   text-align: center;
+  margin-top: 17px;
+  margin-left: 388px;
 
   button {
     display: inline-block;
@@ -157,4 +181,18 @@
     border: none;
     margin-top: 50px;
   }
+<<<<<<< HEAD:css/library.scss
+=======
+}
+
+
+@media (max-width:1440px ) {
+  .wapper__slider {
+    margin-left: 143px;
+
+  }
+  .element-button{
+    margin-left: 164px;
+  }
+>>>>>>> 3dcbe250e4ade39c7536f5639689c22a4c9e17eb:css/_library.scss
 }
