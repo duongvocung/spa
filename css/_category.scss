@@ -21,14 +21,28 @@
 //  font-size: 16px;
 //  text-align: center;
 //}
+#owl-demo .item{
+  margin: 3px;
+}
 
-
+.category-top{
+  padding: 0px 25%;
+  #owl-demo .item{
+    margin: 3px;
+  }
+  #owl-demo .item img{
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+}
 
 .category-top{
   border: solid 1px;
   border-top: none;
   border-color: #e5e5e5;
   width: 100%;
+
   > :first-child{
     border-left: solid 1px;
     border-color: #e5e5e5;
