@@ -114,7 +114,16 @@
           font-family: Lato;
           font-weight: 400;
           font-size: 16px;
-
+          .h3{
+            font-size: 24px;
+            font-weight: 700;
+            font-family: Playfair Display;
+            color: #2b3840;
+          }
+          p{
+            font-weight: 400;
+            font-size: 16px;
+          }
           .wapper__siler-content-footer {
             display: flex;
             justify-content: space-between;

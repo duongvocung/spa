@@ -3,7 +3,7 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 
 
@@ -27,12 +27,11 @@
     .nav-top-header {
       display: flex;
       float: left;
+      margin-left: 15px;
 
-
-      font-weight: 400;
 
       #content2{
-        margin-left: 28px;
+        margin-left: 35px;
         margin-right: 11px;
         color: #fc887b;
       }
@@ -40,7 +39,7 @@
         margin-left: 5px;
       }
       .content3{
-        margin-left: 33px;
+        margin-left: 19px;
         span{
           #content3{
             padding-right: 9px;
@@ -51,7 +50,7 @@
     }
     .login-header{
       .login{
-        margin-right: 9px;
+        margin-right: 1px;
         .content{
           margin-right: 13px;
         }
