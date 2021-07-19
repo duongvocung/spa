@@ -11,7 +11,7 @@
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <!--    <link rel="stylesheet" href="css/style-header.scss">-->
-    <link rel="stylesheet" href="css/style.css">
+
     <!--    link font-->
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -19,9 +19,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
           rel="stylesheet">
 
-    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/fontwesome.css">
 
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!--    silder-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
           integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
           crossorigin="anonymous" referrerpolicy="no-referrer"/>
@@ -29,6 +30,9 @@
           href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
           integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
           crossorigin="anonymous" referrerpolicy="no-referrer"/>
+
+
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -38,17 +42,17 @@
 <!--        top-header-->
 <section class="main">
     <div class="top-header container">
-        <div class="nav-top-header col-md-6">
+        <div class="nav-top-header col-md-9">
             <p class="content1 event">Have any question?</p>
             <span><i id="content2" class="icon-envelop"></i></span>
-            <span class="icon-envelop"></span>
+
             <p class="content2 event">support@example.com</p>
-            <p class="content3"><span><i id="content3" class="fas fa-phone-alt"></i></span>+1 814 251 152</p>
-            <span class="icon-phone"></span>
+            <p class="content3"><span id="content3" class="icon-phone"></span>+1 814 251 152</p>
         </div>
-        <div class="login-header none col-md-6">
+        <div class="login-header none col-md-3">
             <div class="login">
-                <p><span class="content"><i class="fas fa-sign-in-alt"></i></span>
+                <p>
+                    <span class="icon-sign-in content"></span>
                     <span class="name-login">Login / Register</span>
                 </p>
             </div>
@@ -56,36 +60,34 @@
     </div>
 </section>
 
-<!--            //nut inut nav-->
-
-</div>
 
 <!--        under-header-->
-<!--    nav-mobie-menu-->
-<input type="checkbox" hidden class="nav__input" id="nav-mobie-input">
 
-<nav class="nav__mobile">
-
-    <!--            //nut x-->
-    <label for="nav-mobie-input" class="nav__mobie-close"><i class="fas fa-times"></i></label>
-
-    <ul class="nav__mobile-list">
-        <li><a href="" class="nav__mobile-link">Home</a></li>
-        <li><a href="" class="nav__mobile-link">Listing</a></li>
-        <li><a href="" class="nav__mobile-link">News</a></li>
-        <li><a href="" class="nav__mobile-link">About</a></li>
-        <li><a href="" class="nav__mobile-link">Shop</a></li>
-        <li><a href="" class="nav__mobile-link">Page</a></li>
-        <li><a href="" class="nav__mobile-link">Contact Us</a></li>
-        <button>+Add Listing</button>
-    </ul>
-</nav>
 
 <div class="under-header container">
+
     <!--        nav-mobie-->
     <label for="nav-mobie-input" class="top-mobi">
-        <i class="fas block-threeicon fa-bars"></i>
+        <i class="fa fa-bars"></i>
     </label>
+
+    <input type="checkbox" hidden id="nav-mobie-input">
+    <nav class="nav__mobile">
+        <label for="nav-mobie-input" class="nav__mobile-close">
+            <i class="fa fa-times" aria-hidden="true"></i>
+        </label>
+        <ul class="nav__mobile-list">
+            <li><a href="" class="nav__mobile-link">Home</a></li>
+            <li><a href="" class="nav__mobile-link">Listing</a></li>
+            <li><a href="" class="nav__mobile-link">News</a></li>
+            <li><a href="" class="nav__mobile-link">About</a></li>
+            <li><a href="" class="nav__mobile-link">Shop</a></li>
+            <li><a href="" class="nav__mobile-link">Page</a></li>
+            <li><a href="" class="nav__mobile-link">Contact Us</a></li>
+            <button>+Add Listing</button>
+        </ul>
+    </nav>
+
 
     <!--        logo and menu-->
     <div class="under-header1 row">
@@ -99,7 +101,8 @@
                 <li><a href="">Shop</a></li>
                 <li><a href="">Page</a></li>
                 <li><a href="">Contact</a></li>
-                <li class="icon__search-menu"><a href=""><i class="fas fa-search"></i></a></li>
+                <li class="icon__search-menu"><a href=""><i class="fa fa-search" aria-hidden="true"></i></a></li>
+
                 <button id="button-menu">Add Listing</button>
             </ul>
         </div>
@@ -114,10 +117,10 @@
     <section>
         <div class="slide-show">
 
-            <!--            <img src="image/slideshow-.jpg" alt=""> -->
+
             <div class="content-slide-show container">
                 <h3>Our Discover</h3>
-                <h2>Instantly Book Salons <br> And Spas Nearby</h2>
+                <h2>Instantly Book Salons And Spas Nearby</h2>
 
                 <div class="content__slideshow-block-sreach">
                     <input type="text" placeholder="Type Your Text">
@@ -226,8 +229,10 @@
                 </div>
 
                 <div class="wapper__silder-heart">
-                    <p>Nail Salon</p>
-                    <span class="icon-like"></span>
+                   <div>
+                       <p>Nail Salon</p>
+                   </div>
+                    <div><input class="heart" type="checkbox" title="bookmark page" checked></div>
                 </div>
             </div>
 
@@ -292,7 +297,7 @@
 
 
 
-    <!--        button-view-all-->
+    <!--        button-view-all under library-->
     <div class="element-button container">
         <button>View All</button>
     </div>
@@ -323,7 +328,7 @@
     $('.owl-carousel').owlCarousel({
         loop: false,
         // margin: 10,
-        dots: false,
+        dots: true,
         nav: true,
         responsive: {
             0: {

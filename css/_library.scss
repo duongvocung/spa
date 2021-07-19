@@ -2,13 +2,15 @@
 .wapper__slider {
 
   margin-top: 55px;
-  margin-left: 389px;
+  //margin-left: 389px;
 
   .row {
     .wapper__silder-block1 {
       .wapper__silder-img {
         position: relative;
-
+        img{
+          width: 100%;
+        }
         .lable {
           position: absolute;
           padding: 0;
@@ -148,21 +150,47 @@
       }
 
       .wapper__silder-heart {
+        div{
+          border: 1px solid;
+          border-radius: 25px;
+          width: 35px;
+          height: 35px;
+          text-align: center;
+          margin-top: 7px;
+          input{
+            position: absolute;
+            bottom: 12px;
+            right: 54px;
+            display: none;
+            .heart {
+              visibility:hidden;
+              font-size:15px;
+              cursor:pointer;
+              &:before {
+                font-family: 'icomoon';
+                content: "\e90a";
+                position: absolute;
+                visibility:visible;
+                color:#fc887b;
+              }
+              &:checked:before {
+                font-family: 'icomoon';
+                content: "\e90c";
+                position: absolute;
+                color: black;
+              }
+            }
+          }
+
+
+        }
         display: flex;
-        border: 1px solid #e5e5e5;
         border-top: none;
         justify-content: space-between;
         padding: 3px 29px;
         line-height: 43px;
         height: 50px;
-        color: #fc887b;
-        span{
-          color: #fc887b;
-          width: 30px;
-          height: 30px;
-          border: 1px solid;
-          border-radius: 16px;
-        }
+
       }
     }
   }
@@ -171,7 +199,7 @@
 .element-button {
   text-align: center;
   margin-top: 17px;
-  margin-left: 388px;
+  //margin-left: 388px;
 
   button {
     display: inline-block;
@@ -185,18 +213,9 @@
     border: none;
     margin-top: 50px;
   }
-<<<<<<< HEAD:css/library.scss
-=======
 }
 
 
-@media (max-width:1440px ) {
-  .wapper__slider {
-    margin-left: 143px;
+@media (min-width: 1200px){
 
-  }
-  .element-button{
-    margin-left: 164px;
-  }
->>>>>>> 3dcbe250e4ade39c7536f5639689c22a4c9e17eb:css/_library.scss
 }

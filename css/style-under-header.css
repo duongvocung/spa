@@ -30,13 +30,16 @@
       margin-left: 30px;
       border: none; }
 
-@media (max-width: 1024px) {
-  .under-header .under-header1 .menu ul {
-    left: -61px;
-    width: 100%; }
-    .under-header .under-header1 .menu ul .icon__search-menu {
-      display: none; }
-    .under-header .under-header1 .menu ul li {
-      margin-left: 25px; } }
+
+
+
+/*@media (max-width: 1024px) {*/
+/*  .under-header .under-header1 .menu ul {*/
+/*    left: -61px;*/
+/*    width: 100%; }*/
+/*    .under-header .under-header1 .menu ul .icon__search-menu {*/
+/*      display: none; }*/
+/*    .under-header .under-header1 .menu ul li {*/
+/*      margin-left: 25px; } }*/
 
 /*# sourceMappingURL=style-under-header.css.map */
