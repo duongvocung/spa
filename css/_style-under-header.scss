@@ -75,8 +75,7 @@
   transform: translateX(-100%);
 
   .nav__mobile-list{
-    margin-top: 104px;
-    margin-left: 55px;
+    padding: 78px;
     button{
       background-color: #fc887b;
       border-radius: 30px;
@@ -147,6 +146,24 @@
   }
 }
 
+@media (max-width: 767px){
+  .menu {
+    display: none;
+  }
+  .top-mobi {
+    display: block;
+    margin-top: 18px;
+    margin-left: 358px;
+  }
+  .logo {
+    img {
+      margin-top: -99px !important;
+    }
+  }
+  .slide-show{
+    margin-top: -22px!important;
+  }
+}
 
 
 

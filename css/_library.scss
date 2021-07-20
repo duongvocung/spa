@@ -2,9 +2,9 @@
 .wapper__slider {
 
   margin-top: 55px;
-  //margin-left: 389px;
 
-  .row {
+
+  .item {
     .wapper__silder-block1 {
       .wapper__silder-img {
         position: relative;
@@ -68,7 +68,6 @@
         .rate {
           float: left;
           height: 46px;
-          //padding: 0 10px;
           position: absolute;
           top: 198px;
           right: 11px;
@@ -111,9 +110,10 @@
       }
 
       .wapper__silder-footer {
-        border: 1px solid #e5e5e5;
+        border-bottom: 1px solid #e5e5e5;
         border-top: none;
         padding: 15px 30px;
+
 
 
         .wapper__silder-content {
@@ -133,10 +133,11 @@
           .wapper__siler-content-footer {
             display: flex;
             justify-content: space-between;
-
+            i{
+              color: #fc887b;
+            }
             .icon__content--footer {
               margin-left: 12px;
-              //color: #fc887b;
             }
 
             button {
@@ -150,56 +151,44 @@
       }
 
       .wapper__silder-heart {
-        div{
-          border: 1px solid;
-          border-radius: 25px;
-          width: 35px;
-          height: 35px;
-          text-align: center;
-          margin-top: 7px;
-          input{
-            position: absolute;
-            bottom: 12px;
-            right: 54px;
-            display: none;
-            .heart {
-              visibility:hidden;
-              font-size:15px;
-              cursor:pointer;
-              &:before {
-                font-family: 'icomoon';
-                content: "\e90a";
-                position: absolute;
-                visibility:visible;
-                color:#fc887b;
-              }
-              &:checked:before {
-                font-family: 'icomoon';
-                content: "\e90c";
-                position: absolute;
-                color: black;
-              }
-            }
-          }
 
-
-        }
         display: flex;
         border-top: none;
         justify-content: space-between;
         padding: 3px 29px;
         line-height: 43px;
         height: 50px;
-
+        span{
+          height: 35px;
+          width: 35px;
+          border: solid 1px #e5e5e5;
+          border-radius: 50px;
+          margin-top: 3px;
+          i{
+            position: absolute;
+            left: 309px;
+            margin-top: 10px;
+            &:hover{
+              color: #fc887b;
+            }
+          }
+        }
       }
+
     }
   }
+
+.wapper-fotter{
+  border: 1px solid #e5e5e5;
+  &:hover{
+    border-color: #fc887b;
+  }
+}
 
 
 .element-button {
   text-align: center;
   margin-top: 17px;
-  //margin-left: 388px;
 
   button {
     display: inline-block;
@@ -218,4 +207,20 @@
 
 @media (min-width: 1200px){
 
+}
+
+.icon-next-1:before {
+  content: "\e912";
+  position: absolute;
+  left: 102%;
+  top: 45%;
+  font-size: 38px;
+
+}
+.icon-previous:before {
+  content: "\e911";
+  position: absolute;
+  left: -6%;
+  top: 45%;
+  font-size: 38px;
 }

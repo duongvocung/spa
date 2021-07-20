@@ -56,7 +56,7 @@ html, body {
   color: #fc887b;
 }
 .main .top-header .login-header .login .name-login {
-  margin-right: 19px;
+  margin-right: 22px;
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -146,8 +146,7 @@ html, body {
   transform: translateX(-100%);
 }
 .nav__mobile .nav__mobile-list {
-  margin-top: 104px;
-  margin-left: 55px;
+  padding: 78px;
 }
 .nav__mobile .nav__mobile-list button {
   background-color: #fc887b;
@@ -203,6 +202,25 @@ html, body {
 
   .logo img {
     margin-top: -102px !important;
+  }
+
+  .slide-show {
+    margin-top: -22px !important;
+  }
+}
+@media (max-width: 767px) {
+  .menu {
+    display: none;
+  }
+
+  .top-mobi {
+    display: block;
+    margin-top: 18px;
+    margin-left: 358px;
+  }
+
+  .logo img {
+    margin-top: -99px !important;
   }
 
   .slide-show {
@@ -268,6 +286,7 @@ html, body {
   background-position: top 10px right 13px;
 }
 .slide-show .content-slide-show .content__slideshow-block-sreach select {
+  color: #797979;
   margin-left: -7px;
   padding: 0 25px;
   appearance: none;
@@ -342,6 +361,53 @@ html, body {
     width: 252px;
   }
 }
+@media (max-width: 767px) {
+  .slide-show .content-slide-show {
+    margin-top: 130px;
+  }
+  .slide-show .content-slide-show h3 {
+    text-align: center;
+    font-size: 23px;
+    font-weight: 700;
+    font-family: Playfair Display;
+  }
+  .slide-show .content-slide-show h2 {
+    text-align: center;
+    font-weight: 400;
+    font-size: 36px;
+    padding: 0;
+    margin-top: -12px;
+    line-height: 45px;
+  }
+  .slide-show .content-slide-show .content__slideshow-block-sreach {
+    position: absolute;
+    width: 100%;
+    right: 0px;
+    padding: 0;
+    text-align: inherit !important;
+    background: #fff;
+    max-width: 425px;
+    margin: auto;
+    padding: 25px 25px 25px 25px;
+    display: inherit;
+    text-align: center;
+  }
+  .slide-show .content-slide-show .content__slideshow-block-sreach input {
+    background-image: none;
+    border-right: none;
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+  }
+  .slide-show .content-slide-show .content__slideshow-block-sreach select {
+    border-bottom: 1px solid #ccc;
+    margin-left: 0;
+    width: 100%;
+  }
+  .slide-show .content-slide-show .content__slideshow-block-sreach button {
+    margin-left: 0px;
+    width: 100%;
+  }
+}
 .main-category {
   border-bottom: 1px solid #e5e5e5;
 }
@@ -384,13 +450,13 @@ html, body {
 .wapper__slider {
   margin-top: 55px;
 }
-.wapper__slider .row .wapper__silder-block1 .wapper__silder-img {
+.wapper__slider .item .wapper__silder-block1 .wapper__silder-img {
   position: relative;
 }
-.wapper__slider .row .wapper__silder-block1 .wapper__silder-img img {
+.wapper__slider .item .wapper__silder-block1 .wapper__silder-img img {
   width: 100%;
 }
-.wapper__slider .row .wapper__silder-block1 .wapper__silder-img .lable {
+.wapper__slider .item .wapper__silder-block1 .wapper__silder-img .lable {
   position: absolute;
   padding: 0;
   top: 22px;
@@ -404,7 +470,7 @@ html, body {
   white-space: nowrap;
   vertical-align: baseline;
 }
-.wapper__slider .row .wapper__silder-block1 .wapper__silder-img .lable .popular {
+.wapper__slider .item .wapper__silder-block1 .wapper__silder-img .lable .popular {
   text-align: center;
   border-radius: 12px;
   font-size: 12px;
@@ -415,7 +481,7 @@ html, body {
   width: 81px;
   height: 5px;
 }
-.wapper__slider .row .wapper__silder-block1 .wapper__silder-img .price {
+.wapper__slider .item .wapper__silder-block1 .wapper__silder-img .price {
   background-color: #fc887b;
   position: absolute;
   left: 22px;
@@ -425,7 +491,7 @@ html, body {
   width: 65px;
   text-align: center;
 }
-.wapper__slider .row .wapper__silder-block1 .wapper__silder-img .price p {
+.wapper__slider .item .wapper__silder-block1 .wapper__silder-img .price p {
   font-size: 13px;
   font-weight: 700;
   line-height: 28px;
@@ -436,21 +502,21 @@ html, body {
   margin-bottom: 0;
   margin-left: 12px;
 }
-.wapper__slider .row .wapper__silder-block1 .wapper__silder-img .rate {
+.wapper__slider .item .wapper__silder-block1 .wapper__silder-img .rate {
   float: left;
   height: 46px;
   position: absolute;
   top: 198px;
   right: 11px;
 }
-.wapper__slider .row .wapper__silder-block1 .wapper__silder-img .rate .star-rate {
+.wapper__slider .item .wapper__silder-block1 .wapper__silder-img .rate .star-rate {
   font-size: 18px;
 }
-.wapper__slider .row .wapper__silder-block1 .rate:not(:checked) > input {
+.wapper__slider .item .wapper__silder-block1 .rate:not(:checked) > input {
   position: absolute;
   top: -9999px;
 }
-.wapper__slider .row .wapper__silder-block1 .rate:not(:checked) > label {
+.wapper__slider .item .wapper__silder-block1 .rate:not(:checked) > label {
   float: right;
   width: 1em;
   overflow: hidden;
@@ -459,57 +525,60 @@ html, body {
   font-size: 30px;
   color: #ccc;
 }
-.wapper__slider .row .wapper__silder-block1 .rate:not(:checked) > label:before {
+.wapper__slider .item .wapper__silder-block1 .rate:not(:checked) > label:before {
   content: '★ ';
 }
-.wapper__slider .row .wapper__silder-block1 .rate > input:checked ~ label {
+.wapper__slider .item .wapper__silder-block1 .rate > input:checked ~ label {
   color: #ffc700;
 }
-.wapper__slider .row .wapper__silder-block1 .rate:not(:checked) > label:hover,
-.wapper__slider .row .wapper__silder-block1 .rate:not(:checked) > label:hover ~ label {
+.wapper__slider .item .wapper__silder-block1 .rate:not(:checked) > label:hover,
+.wapper__slider .item .wapper__silder-block1 .rate:not(:checked) > label:hover ~ label {
   color: #deb217;
 }
-.wapper__slider .row .wapper__silder-block1 .rate > input:checked + label:hover,
-.wapper__slider .row .wapper__silder-block1 .rate > input:checked + label:hover ~ label,
-.wapper__slider .row .wapper__silder-block1 .rate > input:checked ~ label:hover,
-.wapper__slider .row .wapper__silder-block1 .rate > input:checked ~ label:hover ~ label,
-.wapper__slider .row .wapper__silder-block1 .rate > label:hover ~ input:checked ~ label {
+.wapper__slider .item .wapper__silder-block1 .rate > input:checked + label:hover,
+.wapper__slider .item .wapper__silder-block1 .rate > input:checked + label:hover ~ label,
+.wapper__slider .item .wapper__silder-block1 .rate > input:checked ~ label:hover,
+.wapper__slider .item .wapper__silder-block1 .rate > input:checked ~ label:hover ~ label,
+.wapper__slider .item .wapper__silder-block1 .rate > label:hover ~ input:checked ~ label {
   color: #c59b08;
 }
-.wapper__slider .row .wapper__silder-footer {
-  border: 1px solid #e5e5e5;
+.wapper__slider .item .wapper__silder-footer {
+  border-bottom: 1px solid #e5e5e5;
   border-top: none;
   padding: 15px 30px;
 }
-.wapper__slider .row .wapper__silder-footer .wapper__silder-content {
+.wapper__slider .item .wapper__silder-footer .wapper__silder-content {
   font-family: Lato;
   font-weight: 400;
   font-size: 16px;
 }
-.wapper__slider .row .wapper__silder-footer .wapper__silder-content .h3 {
+.wapper__slider .item .wapper__silder-footer .wapper__silder-content .h3 {
   font-size: 24px;
   font-weight: 700;
   font-family: Playfair Display;
   color: #2b3840;
 }
-.wapper__slider .row .wapper__silder-footer .wapper__silder-content p {
+.wapper__slider .item .wapper__silder-footer .wapper__silder-content p {
   font-weight: 400;
   font-size: 16px;
 }
-.wapper__slider .row .wapper__silder-footer .wapper__silder-content .wapper__siler-content-footer {
+.wapper__slider .item .wapper__silder-footer .wapper__silder-content .wapper__siler-content-footer {
   display: flex;
   justify-content: space-between;
 }
-.wapper__slider .row .wapper__silder-footer .wapper__silder-content .wapper__siler-content-footer .icon__content--footer {
+.wapper__slider .item .wapper__silder-footer .wapper__silder-content .wapper__siler-content-footer i {
+  color: #fc887b;
+}
+.wapper__slider .item .wapper__silder-footer .wapper__silder-content .wapper__siler-content-footer .icon__content--footer {
   margin-left: 12px;
 }
-.wapper__slider .row .wapper__silder-footer .wapper__silder-content .wapper__siler-content-footer button {
+.wapper__slider .item .wapper__silder-footer .wapper__silder-content .wapper__siler-content-footer button {
   padding: 3px 20px;
   border-radius: 16px;
   font-weight: 700;
   border: 1px solid #e5e5e5;
 }
-.wapper__slider .row .wapper__silder-heart {
+.wapper__slider .item .wapper__silder-heart {
   display: flex;
   border-top: none;
   justify-content: space-between;
@@ -517,37 +586,27 @@ html, body {
   line-height: 43px;
   height: 50px;
 }
-.wapper__slider .row .wapper__silder-heart div {
-  border: 1px solid;
-  border-radius: 25px;
-  width: 35px;
+.wapper__slider .item .wapper__silder-heart span {
   height: 35px;
-  text-align: center;
-  margin-top: 7px;
+  width: 35px;
+  border: solid 1px #e5e5e5;
+  border-radius: 50px;
+  margin-top: 3px;
 }
-.wapper__slider .row .wapper__silder-heart div input {
+.wapper__slider .item .wapper__silder-heart span i {
   position: absolute;
-  bottom: 12px;
-  right: 54px;
-  display: none;
+  left: 309px;
+  margin-top: 10px;
 }
-.wapper__slider .row .wapper__silder-heart div input .heart {
-  visibility: hidden;
-  font-size: 15px;
-  cursor: pointer;
-}
-.wapper__slider .row .wapper__silder-heart div input .heart:before {
-  font-family: 'icomoon';
-  content: "\e90a";
-  position: absolute;
-  visibility: visible;
+.wapper__slider .item .wapper__silder-heart span i:hover {
   color: #fc887b;
 }
-.wapper__slider .row .wapper__silder-heart div input .heart:checked:before {
-  font-family: 'icomoon';
-  content: "\e90c";
-  position: absolute;
-  color: black;
+
+.wapper-fotter {
+  border: 1px solid #e5e5e5;
+}
+.wapper-fotter:hover {
+  border-color: #fc887b;
 }
 
 .element-button {
@@ -565,4 +624,20 @@ html, body {
   color: #fff;
   border: none;
   margin-top: 50px;
+}
+
+.icon-next-1:before {
+  content: "\e912";
+  position: absolute;
+  left: 102%;
+  top: 45%;
+  font-size: 38px;
+}
+
+.icon-previous:before {
+  content: "\e911";
+  position: absolute;
+  left: -6%;
+  top: 45%;
+  font-size: 38px;
 }
