@@ -515,6 +515,7 @@
     <div class="element-button container">
         <button>View All</button>
     </div>
+<!--    background video-->
 
 </div>
 
@@ -541,7 +542,6 @@
 <script type="text/javascript">
     $('.icon-categorys').owlCarousel({
         loop: false,
-        // margin: 10,
         dots: true,
         nav: false,
         responsive: {
@@ -560,16 +560,15 @@
 
 
     $('.slider-library').owlCarousel({
-        items: 3,
         loop: false,
-        margin: 30,
+        margin: 25,
         dots: true,
         nav: true,
         navText: ['<span class="icon-previous"></span>', '<span class="icon-next-1"></span>'],
         responsive: {
             1024: {items: 3,},
             768: {items: 2,},
-            480: {items: 1,}
+            480: {items: 1,},
         }
     });
 </script>

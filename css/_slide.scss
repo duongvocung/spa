@@ -137,11 +137,18 @@
          background-image: none;
          border-right: none;
          border-bottom: 1px solid #ccc;
+         width: 100%;
+         padding: 0;
        }
        select{
          border-bottom: 1px solid #ccc;
          margin-left: 0;
-         width: 252px;
+         width: 100%;
+         padding: 0;
+       }
+       button{
+         width: 100%;
+         padding: 0;
        }
        background: #fff;
        max-width: 425px;

@@ -28,9 +28,9 @@
 
 
 @media (min-width: 768px) and (max-width: 991px){
-  .owl-dots{
-    margin-left: 314px;
-    margin-top: 20px;
-    position: absolute!important;
-  }
+  /*.owl-dots{*/
+  /*  margin-left: 314px;*/
+  /*  margin-top: 20px;*/
+  /*  position: absolute!important;*/
+  /*}*/
 }
