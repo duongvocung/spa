@@ -4,8 +4,12 @@
   padding: 0px;
   box-sizing: border-box;
   font-family: 'Lato', sans-serif;
+  list-style: none;
 }
-
+html, body {
+  width: auto !important;
+  overflow-x: hidden !important;
+}
 
 
 .main{
@@ -27,7 +31,7 @@
     .nav-top-header {
       display: flex;
       float: left;
-      margin-left: 15px;
+      margin-left: 3px;
 
 
       #content2{
@@ -40,11 +44,10 @@
       }
       .content3{
         margin-left: 19px;
-        span{
           #content3{
             padding-right: 9px;
             color: #fc887b;
-          }
+
         }
       }
     }
@@ -53,201 +56,38 @@
         margin-right: 1px;
         .content{
           margin-right: 13px;
+          color: #fc887b;
         }
         .name-login{
-          margin-right: 19px;
+          margin-right: 22px;
 
         }
       }
     }
   }
 }
-//màn hình mobi
-//.menu-none{
-//  //display: none;
-//}
-
-
-//mobie-nav
-//.top-header{
-//      display: inline !important;
-//    }
-
-//.nav__overlay{
-//  position: fixed;
-//  top: 0;
-//  right: 0;
-//  bottom: 0;
-//  left: 0;
-//  background-color: rgba(0,0,0,0.3);
-//}
-
-//nut-close
-
-
-.block-threeicon{
-  display: none!important;
-}
-.nav__mobie-close{
-  font-size: 25px;
-  color: #666;
-  position: absolute;
-  top: 1rem;
-  right: 1rem;
-}
-//nut-input
-#nav-mobie-input:checked ~ .nav__mobile{
-  transform: translateX(0%);
-  opacity: 1;
-}
-
-.nav__mobile{
-  position: fixed;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  max-width: 100%;
-  background-color: white;
-  z-index: 10000;
-  transform: translateX(-100%);
-  opacity: 0;
-  transition: transform linear 0.2s, opacity linear 0.2s;
-}
-.nav__mobile-list{
-  margin-top: 24px;
-}
-.nav__mobile-link{
-  text-decoration: none!important;
-  color: #333;
-  display: block;
-  padding: 8px 0;
-  font-size: 1.4rem;
-}
-
-@media (max-width:1024px ) {
-
-  .block{
-    display: block !important;
-    font-size: 25px;
-    display: none !important;
+@media (min-width: 992px) and (max-width: 1199px){
+  .content1{
+    margin-left: -10px;
+  }
+  .name-login{
+    margin-right: 38px;
   }
 }
+@media (min-width: 768px) and (max-width: 991px){
 
-//  body {
-//    direction:rtl;
-//  }
-//@media (max-width: 1024px) {
-//    body {
-//      direction:initial;
-//    }
-//  }
-
-
-
-
-
-
-
-
-//
-//  .nav__mobile-list button{
-//    background-color:  #d62963;
-//    border-radius: 30px;
-//    border:none;
-//    display: block;
-//    text-align: center;
-//    color: #fff;
-//    height: 50px;
-//    line-height: 30px;
-//    min-width: 90%;
-//    margin-left: 28px;
-//  }
-//  .menu {
-//    margin-left: 35px !important;
-//    margin-top: 18px !important;
-//  }
-//
-//}
-//
-
-
-
-
-//@media (max-width: 768px) {
-//  .block{
-//    float: right;
-//    margin-left: 651px;
-//  }
-//}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//}
-//@media only screen and (max-width: 768px) {
-//  .none{
-//
-//    display: none !important;
-//
-//  }
-//  .top-header{
-//    display: inline !important;
-//  }
-//  .top-mobi{
-//    display: block;
-//    float: right ;
-//    margin-right: 50px;
-//  }
-//  .block{
-//    position: relative;
-//  }
-//  .menu-none{
-//    position: absolute;
-//    top:0px;
-//    bottom: 0px;
-//  }
-//  .block:hover ul{
-//    display: block;
-//
-//  }
-//
-//}
-////màn pc
-//@media only screen and (min-width: 768px) {
-//  .top-mobi{
-//    display: none;
-//  }
-//}
-
-
-
-
-
-
+}
+@media (max-width: 767px){
+  .event  {
+    display: none;
+  }
+  #content2{
+    display: none;
+  }
+  .content3{
+    margin-left: -12px!important;
+  }
+  .name-login{
+    margin-right: 0px!important;
+  }
+}

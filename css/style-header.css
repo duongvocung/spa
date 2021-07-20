@@ -82,10 +82,12 @@ body{
   padding: 8px 0;
   font-size: 1.4rem; }
 
-@media (max-width: 1024px) {
-  .block {
-    display: block !important;
-    font-size: 25px;
-    display: none !important; } }
 
-/*# sourceMappingURL=style-header.css.map */
+
+/*@media (max-width: 1024px) {*/
+/*  .block {*/
+/*    display: block !important;*/
+/*    font-size: 25px;*/
+/*    display: none !important; } }*/
+
+
